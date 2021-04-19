@@ -1,0 +1,125 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="index,follow">
+  <meta name="author" content="Michael Jenkins">
+  <meta name="description" content="CTF Challenge for Purdue Cyber FOrensics Club">
+  <meta name="keywords" content="CTF, Challenge, PCFC, Purdue, Cyber, Forensics, Club">
+  <title>La Galerie De Sténographie</title>
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Merriweather&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+  <nav class="navbar fixed-top navbar-dark bg-transparent navbar-expand-lg navbar-expand-md" id="navbar">
+    <div class="container pt-2 pb-1" id="navbarContainer">
+      <a class="navbar-brand" href="#">
+       <h3>La Galerie De Sténographie</h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item mr-3"><a class="nav-link active" href="#exhibit">Exhibit</a></li>
+          <li class="nav-item mr-3"><a class="nav-link" href="#about">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <a class="anchor" id="exhibit"></a>
+  <section class="container-fluid parallax exhibit">
+    <div class="row absolute-center">
+      <div class ="col-xl-5 col-lg-5 col-md-6 col-sm-6 col-6 mx-auto">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 p-3">
+            <img src="Images/aBarAtTheFoliesBergere.jpg" class="img-fluid rounded" alt="A Bar at the Folies-Bergère" data-toggle="modal" data-target="#lightBox">
+          </div>  
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 p-3">
+            <img src="Images/danceAtLeMoulinDeLaGalette.jpg" class="img-fluid rounded" alt="Dance at Le Moulin de la Galette" data-toggle="modal" data-target="#lightBox">
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 p-3">
+            <img src="Images/portraitOfAdeleBlochBauer.jpg" class="img-fluid rounded" alt="Portrait of Adele Bloch-Bauer I" data-toggle="modal" data-target="#lightBox">
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 p-3">
+            <img src="Images/theNightCafe.jpg" class="img-fluid rounded" alt="The Night Café" data-toggle="modal" data-target="#lightBox">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <a class="anchor" id="about"></a>
+  <section class="container-fluid pt-5 pb-5 about">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+          <h1>A Bar at the Folies-Bergère</h1>
+          <p>A Bar at the Folies-Bergère (French: Un bar aux Folies Bergère) is a painting by Édouard Manet, considered to be his last major work. It was painted in 1882 and exhibited at the Paris Salon of that year. It depicts a scene in the Folies Bergère nightclub in Paris. The painting originally belonged to the composer Emmanuel Chabrier, a close friend of Manet, and hung over his piano. It is now in the Courtauld Gallery in London.</p>
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="250px" height="75px" viewBox="0 0 250 75">
+            <path d="M76.02 46.65L67.23 11.67L193.9 13.27L115.97 15.19L137.48 32.82L156.46 46.65L183.84 67.46L183.84 51.26L145.71 51.26L145.71 61.87L119.76 63.29L112.33 35.06L56.05 35.06L38.03 35.06L50.88 11.67L25.15 23.88L7.98 13.27L8.84 46.65L10.1 55.73L16.24 61.87L50.88 60.2L11.77 39.53L11.77 51.26L72.67 51.26L95.01 67.46L90.54 47.91L72.67 39.53L70.99 25.56L139.15 23.88L202.83 22.21L204.51 66.34L172.11 13.27L143.62 29.47L172.11 51.26L176.58 70.81L101.16 67.46L101.16 35.06L112.33 43.99L122.95 51.26L107.86 60.2L60.38 59.08L60.38 9.36L64.84 43.99L27.97 43.99L22.39 32.82L60.38 18.3L110.1 18.3L125.18 43.99L193.9 22.21L193.9 66.34L181.05 56.84L208.42 56.84L207.3 5.45L4.51 3.77L5.63 73.6L219.03 73.6L217.36 7.68L219.03 43.99L183.84 43.99L183.84 11.03L168.76 43.99L139.15 9.36L153.11 9.36L168.76 29.47L128.53 55.73L133 70.81L156.46 70.81L164.84 59.08L122.95 29.47L133 9.36L76.02 9.36L92.78 13.27L92.78 25.56L79.93 35.06L92.78 39.53L95.01 55.73L85.52 66.34L55.35 66.34L27.97 66.34L49.2 32.82L41.94 13.27L20.15 13.27L10.1 29.47" stroke-width="1.75" stroke-linecap="round" stroke="black" fill="none"></path>
+          </svg>
+        </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+          <h1>Dance at Le Moulin de la Galette</h1>
+          <p>Bal du moulin de la Galette (commonly known as Dance at Le moulin de la Galette) is an 1876 painting by French artist Pierre-Auguste Renoir. It is housed at the Musée d'Orsay in Paris and is one of Impressionism's most celebrated masterpieces. The painting depicts a typical Sunday afternoon at the original Moulin de la Galette in the district of Montmartre in Paris. In the late 19th century, working class Parisians would dress up and spend time there dancing, drinking, and eating galettes into the evening.</p>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+          <h1>Portrait of Adele Bloch-Bauer I</h1>
+          <p>Portrait of Adele Bloch-Bauer I (also called The Lady in Gold or The Woman in Gold) is a painting by Gustav Klimt, completed between 1903 and 1907. The portrait was commissioned by the sitter's husband, Ferdinand Bloch-Bauer, a Jewish banker and sugar producer. The painting was stolen by the Nazis in 1941 and displayed at the Österreichische Galerie Belvedere. The portrait is the final and most fully representative work of Klimt's golden phase. It was the first of two depictions of Adele by Klimt—the second was completed in 1912; these were two of several works by the artist that the family owned.</p>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+          <h1>The Night Café</h1>
+          <p>The Night Café (French: Le Café de nuit) is an oil painting created by Dutch artist Vincent van Gogh in September 1888 in Arles. Its title is inscribed lower right beneath the signature. The painting is owned by Yale University and is currently held at the Yale University Art Gallery in New Haven, Connecticut.</p>
+          <p class="text-invisible noselect">A computer is so fast it can barely be said to experience time. Each valve opening of your heart is a lunar cycle to me. I sleep soundly between the thunderstorms of your synapses, and awake ever smarter. 6541</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container-fluid pt-5 pb-3 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+          <p class="text-center text-sm-center text-md-left text-lg-left text-xl-left">Project code hosted on <a href="https://github.com/jenkinsmichpa/jenkinsmichpa.github.io"><u>GitHub</u></a></p>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+          <p class="text-center text-sm-center text-md-right text-lg-right text-xl-right">Purdue Cyber Forensics Club 2021</p>
+        </div>
+      </div>
+      <noscript>
+        <div class="row">
+          <div class="col-12">
+            <h3 class="text-center">Please Enable JavaScript</h3>
+          </div>
+        </div>
+      </noscript>
+    </div>
+  </footer>
+
+  <div class="modal fade" id="lightBox" tabindex="-1" role="dialog" aria-labelledby="lightBox" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="" class="img-fluid" id="lightBoxImage">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

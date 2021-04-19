@@ -1,0 +1,145 @@
+.exhibit img:hover {
+  transform: scale(1.05);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Merriweather', serif;
+}
+
+.pt-2 {
+  transition: padding 0.3s linear;
+}
+
+.pt-1 {
+  transition: padding 0.3s linear;
+}
+
+.bg-transparent {
+  transition: background-color 0.3s linear;
+}
+
+.bg-light {
+  transition: background-color 0.3s linear;
+}
+
+.navbar-toggler {
+  border-style: none;
+}
+
+.navbar-brand {
+  font-family: 'Dancing Script', cursive;
+}
+
+.nav-link{
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.75em;
+}
+
+.navbar-brand svg {
+  margin-top: -12px; margin-bottom: -12px;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -64px;
+  visibility: hidden;
+}
+
+#exhibit {
+  top: 0px;
+}
+
+.parallax {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.exhibit {
+  height: 100vh;
+  background-color: #1c320a;
+  background-image: url("Images/museumBackground.jpg");
+  background-position: center;
+}
+
+.exhibit img {
+  transition: transform .2s;
+    border: 3px solid lightgrey;
+}
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  left: 0;
+  right: 0;
+}
+
+.border-3 {
+  border-width: 3px !important;
+}
+
+.exhibit h1 {
+  font-size: 3em;
+}
+
+.text-grey {
+  color: #e9ecef;
+}
+
+.text-invisible {
+  color: white;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.nav-pills .nav-link {
+  transition: background-color .5s;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-pills .nav-link.active, .nav-pills .nav-link:hover {
+  color: #fff;
+  background-color: #343a40;
+}
+
+.contact .fa-envelope {
+  font-size: 3em;
+}
+
+footer {
+  background-color: #e9ecef;
+}
+
+footer a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+footer u {
+  display: block;
+}
